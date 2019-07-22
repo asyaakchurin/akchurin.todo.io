@@ -1,0 +1,63 @@
+/* RESET */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container {
+  width: 100%;
+  padding: 50px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.todo-list {
+  width: 500px;
+  padding: 50px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.todo-list p {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.todo-list ul {
+  padding: 20px;
+}
+
+.todo-list li {
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
